@@ -1,0 +1,61 @@
+.hero {
+  padding-bottom: 75px;
+}
+
+.hero__container {
+  background-image: url(../../images/hero-minimalist.jpg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: 0;
+}
+
+.hero__info {
+  background-color: #fff;
+  max-width: 445px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.hero__title {
+  font-family: "ibarraBold";
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+  color: $text-color;
+}
+
+.hero__btn {
+  width: 200px;
+  height: 40px;
+  background-color: #203a4c;
+  display: flex;
+  border: 0;
+}
+
+.btn__wrapper {
+  border: 0;
+  background-color: #203a4c;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn__wrapper_div {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn__text {
+  border: 0;
+  background-color: #203a4c;
+  width: 75%;
+  color: #fff;
+  text-align: center;
+}

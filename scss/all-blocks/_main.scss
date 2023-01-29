@@ -1,3 +1,90 @@
 .main {
-    flex-grow: 1;
+  flex-grow: 1;
+}
+
+.container {
+  border: 0px;
+}
+
+.about__container {
+  max-width: 1015px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.about__left {
+  width: 50%;
+}
+
+.about__right {
+  border-top: 1px solid rgba(#33323d, 0.15);
+  border-bottom: 1px solid rgba(#33323d, 0.15);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__right {
+  height: 550px;
+  width: 350px;
+  margin-top: 0;
+}
+
+.about__right__title {
+  font-family: "ibarraBold", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+}
+
+.about__right__text {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.about__right__btn {
+  background-color: #fff;
+  border: 1px solid #33323d;
+  opacity: 0.8;
+  width: 202px;
+  height: 48px;
+  margin: 24px 0;
+}
+
+// ============================
+
+.contact {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.contact__title {
+  font-family: "publicThin", serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 42px;
+  width: 320px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+
+.contact__btn {
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 160px;
+  height: 50px;
 }
